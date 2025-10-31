@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+/* .about{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+} */
+.nav-container{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 50px;
+    text-align: right;
+    
+
+}
+a{
+    margin: 20px;
+    color:blue;
+    
+    
+    
+}
+#name{
+    text-align: left;
+    font-size:large;
+    
+}
+.skills{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 30px;
+}
