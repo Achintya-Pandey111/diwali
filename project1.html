@@ -11,20 +11,25 @@
 <header>
     <div>
         <nav class="nav-container">
-            <p id="name">Achintya Pandey</p>
-            <a href="#about" class="links">About</a>
-            <a href="#" class="links">Home</a>
-            <a href="#contact" class="links">Contact</a>
+            <div class="first"><p id="name">Achintya Pandey</p></div>
+            <div class="second">
+                <a href="" class="links">Home</a>
+                <a href="#about" class="links">About</a>
+                <a href="#contact" class="links">Contact</a>
+            </div>
         </nav>
     </div>
 </header>
-
-<div>
-    <img src="" alt="">
+<div class="image-container">
+    <div class="text-image"><h1>Hii, I am Achintya</h1></div>
+    <div class="image">
+        <img src="photo.jpg" alt="">
+    </div>
 </div>
 
 <div class="about" id="about">
     <h1>About Me</h1>
+    
     <div>
         Hii, I'm Achintya, an enthusiastic coder and dedicated learner from Newton School of Tech ADYPU. 
         I'm currently focused on building a strong foundation in Python, which is opening up a world of possibilities for me. 
@@ -62,18 +67,27 @@
         </div>
     </div>
 </div>
-
+<h1>Get in touch</h1>
 <div class="contact" id="contact">
-    <h1>Get in touch</h1>
+    
     <form action="">
-        <label for="name">Your name:</label>
-        <input type="text" id="name"><br>
+        <!-- <label for="name">Your name:</label> -->
+        
 
-        <label for="email">Your email:</label>
-        <input type="email" id="email"><br>
+        <!-- <label for="email">Your email:</label> -->
+        
 
-        <label for="message">Message:</label>
+        <!-- <label for="message">Message:</label> -->
+        
+        
+            
+        <input type="text" id="name" placeholder="Your Name..."><br>
+        <input type="email" id="email" placeholder="Your E-mail"><br>
         <textarea name="message" id="message" placeholder="Write your message here..."></textarea>
+        <button type="submit">Submit</button>
+        
+
+
     </form>
 </div>
 

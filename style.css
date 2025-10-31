@@ -1,17 +1,53 @@
 * {
     margin: 0px;
+    /* box-sizing: border-box; */
     /* padding: 0px; */
     /* margin-left: 3px; */
 } 
+html{
+    scroll-behavior: smooth;
+}
+/* header {
+    position: sticky;
+    top: 0;
+    
+}     */
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+    position: relative;
+    /* right: -78.5vw; */
+    
+}
+.image-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: lightblue;
+    
+}
+.text-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
-body {
-    background-color: rgb(221, 221, 221);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    
+    
 }
 
 .about {
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 5px;
     margin-right: 5px;
+    
 }
 
 .about > h1 {
@@ -20,23 +56,36 @@ body {
 
 .about > div {
     line-height: 30px;
-    /* word-spacing: 4px; */
+    
     font-size: larger;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    /* margin-left: 0px; */
-}    
 
 .nav-container {
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    background-color: #f0f0f0;
     color: black;
     height: 50px;
     text-align: right;
     margin-bottom: 50px;
-    margin-left: 0px; /* <-- fixed comma to semicolon */
+    margin-left: 0px; 
+    justify-content: space-between;
+    
+}
+.first{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 300px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blueviolet; */
+    width: 800px;
+    justify-content: space-between;
+    
 }
 
 a {
@@ -98,7 +147,7 @@ div > nav > div a {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    /* background-color: chartreuse; */
+    
     height: 200px;
 }
 
@@ -128,4 +177,25 @@ div > nav > div a {
 
 #Projects {
     margin-left: 4px;
+}
+.contact{
+    margin-top: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    
+    height: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(208, 228, 236);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-5px)
 }
