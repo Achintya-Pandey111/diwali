@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     /* padding: 0px; */
-    margin-left: 3px;
+    /* margin-left: 3px; */
     
 } 
 body{
@@ -20,14 +20,19 @@ body{
     /* word-spacing: 4px; */
     font-size: larger;
 }
+header{
+    position: sticky;
+    top: 0;
+    /* margin-left: 0px; */
+    
+}    
 .nav-container{
     background-color: rgb(255, 255, 255);
     color: black;
     height: 50px;
     text-align: right;
     margin-bottom: 50px;
-    
-
+    margin-left: 0px,
 }
 a{
     margin: 20px;
